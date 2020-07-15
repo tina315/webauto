@@ -6,3 +6,6 @@ driver = webdriver.Chrome()
 
 #open url
 driver.get("http://www.baidu.com")
+
+#close url
+driver.close()
